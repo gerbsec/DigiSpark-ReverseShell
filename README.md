@@ -1,2 +1,4 @@
 # DigiSpark-ReverseShell
 This Shell, is not the most optimized one possible. However, as I learn more I will definitely write a more powerful injection. Essentially when you plug in the DigiSpark should begin after it's natural 5 second delay(unless you have that disabled, which I recommend in wild injections). The DigiSpark then proceeds to open windows defender, as a user and disable it manually, as the new windows defender updates prohibit disabling real-time protection from the command line. Next it downloads psexec from your web server through an Administrator Command prompt and finally it elevates it's own privileges to NT/AUTHORITY SYSTEM and downloads your reverse shell and runs it.
+
+The main difference from this and other DigiSpark reverse shells is that it disables windows defender.
